@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2cec1ad6.css",
+    "main.js": "/static/js/main.0dec5bb1.js",
+    "static/media/CancionEspecial.mp3": "/static/media/CancionEspecial.c6bdd200bc7827b7d18c.mp3",
+    "static/media/GreatVibes-Regular.ttf": "/static/media/GreatVibes-Regular.f51f1a4f2cd0c9611249.ttf",
+    "static/media/imgTimer.jpg": "/static/media/imgTimer.5a31d0637be4312bc81a.jpg",
+    "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.bf46a6bcddc9999a295e.ttf",
+    "static/media/imgPrincipal.jpg": "/static/media/imgPrincipal.72ac9bfac3fdab3eecd1.jpg",
+    "static/media/LasMaravilllasPark.jpeg": "/static/media/LasMaravilllasPark.4ca64fe86b1251d16e66.jpeg",
+    "static/media/bgImage.jpg": "/static/media/bgImage.df76c278fbca841ac837.jpg",
+    "index.html": "/index.html",
+    "main.2cec1ad6.css.map": "/static/css/main.2cec1ad6.css.map",
+    "main.0dec5bb1.js.map": "/static/js/main.0dec5bb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cec1ad6.css",
+    "static/js/main.0dec5bb1.js"
+  ]
+}

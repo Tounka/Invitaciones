@@ -1,0 +1,30 @@
+:root {
+  --blancoPrincipal: #E5EBEA;
+  --rosaPrincipal: #ffafcc; 
+  --doradoSuave: #fbc739; 
+
+
+
+  --fuenteElegante: 'fuenteElegante';
+  --fuenteRegular: 'fuenteRegular';
+
+
+  --txtSize1: 38px;
+  --txtSize2: 28px;
+  --txtSize3: 24px;
+  --txtSize4: 20px;
+  --txtSize5: 16px;
+
+}
+@font-face {
+  font-family: 'fuenteElegante';
+  src: url('./recursos/fuentes/GreatVibes-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fuenteRegular';
+  src: url('./recursos/fuentes/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

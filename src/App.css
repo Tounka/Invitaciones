@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, #root, body, .App{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: 'fuenteRegular';
+}
