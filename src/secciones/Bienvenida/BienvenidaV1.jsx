@@ -38,7 +38,7 @@ const ContenedorTxtBg = styled.div`
     color: var(--blancoPrincipal);
 `
 export const TxtBienvenidos = styled(TxtGenerico)`
-    
+
     font-size: var(--txtSize2);
     gap: 10px;
     color: var(--blancoPrincipal);
@@ -48,7 +48,9 @@ export const TxtBienvenidos = styled(TxtGenerico)`
 
 `
 export const TxtTitulo = styled(TxtBienvenidos)`
-    
+    @media (min-width: 800px) {
+        font-size: 48px;
+    }
     font-size: var(--txtSize1);
   
 

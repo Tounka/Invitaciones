@@ -35,19 +35,21 @@ export const TxtGenerico = ({ children, ...props }) => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    setIsVisible(true);
-                    observer.disconnect(); // Deja de observar una vez que es visible
+                    setTimeout(() => {
+                        setIsVisible(true);
+                        observer.disconnect(); 
+                    }, 200); 
                 }
             });
         }, {
-            threshold: 0.1 // Cuánto del elemento debe ser visible para activar la animación
+            threshold: .4 
         });
-
+    
         if (ref.current) {
             observer.observe(ref.current);
         }
-
-        return () => observer.disconnect(); // Limpia el observer al desmontar el componente
+    
+        return () => observer.disconnect(); 
     }, []);
 
     return (

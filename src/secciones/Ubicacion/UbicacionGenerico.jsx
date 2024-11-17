@@ -13,7 +13,7 @@ export const SeccionUbicacionGenerico = ({iframe, ubicacion, img}) =>{
             <ContenedorInternoUbicacion>
             
    
-                <ContenedorUbicacionGenericoSmall height='500px'>
+                <ContenedorUbicacionGenericoSmall height='350px'>
                     <ContenedorImgParallax height='100%' src={img}/>
 
                     <ContenedorTxtUbicacion>
@@ -24,7 +24,7 @@ export const SeccionUbicacionGenerico = ({iframe, ubicacion, img}) =>{
 
                 </ContenedorUbicacionGenericoSmall>
 
-                <ContenedorUbicacionGenericoSmall>
+                <ContenedorUbicacionGenericoSmall  height='250px'>
                     {iframe}
                 </ContenedorUbicacionGenericoSmall>
 

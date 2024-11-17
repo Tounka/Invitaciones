@@ -1,20 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.2cec1ad6.css",
-    "main.js": "/static/js/main.0dec5bb1.js",
+    "main.js": "/static/js/main.55ed0d30.js",
     "static/media/CancionEspecial.mp3": "/static/media/CancionEspecial.c6bdd200bc7827b7d18c.mp3",
+    "static/media/Galeria4.jpg": "/static/media/Galeria4.fccf391c942a00888b9d.jpg",
+    "static/media/Galeria7.jpg": "/static/media/Galeria7.01ccfc67a9d6a552f68b.jpg",
+    "static/media/Galeria8.jpg": "/static/media/Galeria8.ceacd740f76e470f3c88.jpg",
+    "static/media/Galeria6.jpg": "/static/media/Galeria6.5081deac2aa2d117eaf0.jpg",
+    "static/media/Galeria5.jpg": "/static/media/Galeria5.48f8172c6ad0bfc32fb8.jpg",
+    "static/media/Galeria2.jpg": "/static/media/Galeria2.5298b38e443a858b1f91.jpg",
+    "static/media/Galeria3.jpg": "/static/media/Galeria3.d435324fb4c37213aae5.jpg",
+    "static/media/Galeria1.jpg": "/static/media/Galeria1.8976fa8186f4ff2b1a4d.jpg",
     "static/media/GreatVibes-Regular.ttf": "/static/media/GreatVibes-Regular.f51f1a4f2cd0c9611249.ttf",
     "static/media/imgTimer.jpg": "/static/media/imgTimer.5a31d0637be4312bc81a.jpg",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.bf46a6bcddc9999a295e.ttf",
     "static/media/imgPrincipal.jpg": "/static/media/imgPrincipal.72ac9bfac3fdab3eecd1.jpg",
     "static/media/LasMaravilllasPark.jpeg": "/static/media/LasMaravilllasPark.4ca64fe86b1251d16e66.jpeg",
-    "static/media/bgImage.jpg": "/static/media/bgImage.df76c278fbca841ac837.jpg",
+    "static/media/bgImage.jpg": "/static/media/bgImage.0bad81b6024907f7c54b.jpg",
     "index.html": "/index.html",
     "main.2cec1ad6.css.map": "/static/css/main.2cec1ad6.css.map",
-    "main.0dec5bb1.js.map": "/static/js/main.0dec5bb1.js.map"
+    "main.55ed0d30.js.map": "/static/js/main.55ed0d30.js.map"
   },
   "entrypoints": [
     "static/css/main.2cec1ad6.css",
-    "static/js/main.0dec5bb1.js"
+    "static/js/main.55ed0d30.js"
   ]
 }

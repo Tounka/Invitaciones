@@ -9,13 +9,15 @@ const ContenedorCodigoVestimenta = styled(ContenedorGenericoSmall)`
     width: 100%;
     height: auto;
     padding: 20px;
+   
     `
 
 const ContenedorInterto = styled(ContenedorGenericoSmall)`
-max-width: 1200px;
-height: auto;
-padding: 10px;
-border: solid 4px var(--doradoSuave);
+    max-width: 1200px;
+    height: auto;
+    padding: 10px;
+    border: solid 4px var(--doradoSuave);
+    background-image: url(null);
 `;
 
 const ContendorIcono = styled(TxtGenerico)`
@@ -29,10 +31,11 @@ align-items: center;
 `;
 
 const ContenedorHorizontal = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;  /* Añadir un pequeño espacio entre el texto y el ícono */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
 `;
 
 export const CodigoVestimenta = ({ codigoVestimenta }) => {
@@ -40,7 +43,7 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
         <ContenedorCodigoVestimenta>
             <ContenedorInterto>
                 <ContenedorHorizontal>
-                    <TxtGenerico size={'var(--txtSize1)'} bold>
+                    <TxtGenerico size={'var(--txtSize1)' } fontFamily='var(--fuenteElegante)' bold>
                         {`Código Vestimenta`}
                     </TxtGenerico>
                     <ContendorIcono>
@@ -51,7 +54,7 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
                     {`Playero Formal`}
                 </TxtGenerico>
                 <TxtGenerico size={'var(--txtSize4)'} bold>
-                    {`Les invitamos a vestir de forma elegante y cómoda, ideal para un entorno de playa. Opten por camisas de lino o algodón, vestidos ligeros y frescos, y pantalones de telas suaves como el lino. Los colores claros, pasteles o estampados tropicales son perfectos. Sandalias elegantes o zapatos sin calcetines son bienvenidos. Complementen su atuendo con accesorios discretos, como sombreros de paja y gafas de sol.`}
+                    {`Les invitamos a vestir de forma elegante y cómoda, ideal para un entorno de playa. Opten por camisas de lino o algodón, vestidos ligeros y frescos, y pantalones de telas suaves como el lino. Los colores claros, pasteles o estampados tropicales son perfectos. Sandalias elegantes o zapatos sin calcetines son bienvenidos.`}
                 </TxtGenerico>
             </ContenedorInterto>
         </ContenedorCodigoVestimenta>
