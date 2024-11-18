@@ -36,9 +36,10 @@ const ContenedorImg = styled.div`
     overflow: hidden;
 
     img{
-        object-fit: center;
+        object-fit: cover;
         width: 100%;
         height: 100%;
+        display: flex;
     }
 `
 

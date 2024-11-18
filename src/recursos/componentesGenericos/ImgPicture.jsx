@@ -21,7 +21,7 @@ const Picture = styled.picture`
     left: ${props => props.bg ? '0' : ''};
     z-index: ${props => props.bg ? '1' : ''};
     
-
+    
 `
 export const ImgPicture = ({ src, alt, fn, bg }) => {
 
@@ -49,11 +49,12 @@ export const ImgPictureConFade = ({ src, alt, fn, bg }) => {
                     setTimeout(() => {
                         setIsVisible(true);
                         observer.disconnect(); 
-                    }, 100);
+                    }, 50);
                 }
             });
         }, {
-            threshold: .1 
+            threshold: .1,
+            rootMargin: "50px 0px"
         });
     
         if (ref.current) {

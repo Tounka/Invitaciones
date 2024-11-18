@@ -6,11 +6,12 @@ import img5 from './recursos/img/GaleriaImg/Galeria5.jpg';
 import img6 from './recursos/img/GaleriaImg/Galeria6.jpg';
 import img7 from './recursos/img/GaleriaImg/Galeria7.jpg';
 import img8 from './recursos/img/GaleriaImg/Galeria8.jpg';
+import img9 from './recursos/img/GaleriaImg/Galeria9.jpg';
 
 export const data ={
     tipoEvento:'Nuestra Boda',
     nombres: ['Mara Patricia Barraza Marquez' , 'Iohannan Arturo cruz Morales'],
     ubicacion:'Las Maravillas Trailer Park',
     fecha: new Date(2025,4,2),
-    galeria: [img1,img2,img3,img4,img5,img6,img7,img8]
+    galeria: [img1,img2,img3,img4,img5,img6,img7,img8,img9]
 }

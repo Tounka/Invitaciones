@@ -9,6 +9,8 @@ import { SeccionReproductor } from './secciones/Musica/MusicaV1';
 import { TimerV2 } from './secciones/Timer/TimerV2';
 import { CodigoVestimenta } from './secciones/CodigoVestimenta/CodigoVestimenta';
 import { SeccionRegalo } from './secciones/Regalo/SeccionRegalo';
+import { SeccionFrase } from './secciones/Frase/SeccionFrase';
+import { SeccionFraseGenerica } from './secciones/Frase/SeccionFraseGenerica';
 
 import imgUbicacion from '../src/recursos/img/LasMaravilllasPark.jpeg'
 import imgTimer from '../src/recursos/img/imgTimer.jpg'
@@ -44,6 +46,8 @@ function App() {
        <TimerV2 fecha = {data.fecha} imgTimer={imgTimer}  />
        <SeccionRegalo />
        <SeccionGaleria galeria = {data.galeria} />
+       <SeccionFrase />
+       
     </ContenedorPrincipal>
   );
 }
