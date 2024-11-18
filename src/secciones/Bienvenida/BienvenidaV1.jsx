@@ -47,6 +47,16 @@ export const TxtBienvenidos = styled(TxtGenerico)`
     }
 
 `
+export const TxtFecha = styled(TxtGenerico)`
+
+    font-size: var(--txtSize3);
+    gap: 10px;
+    color: var(--blancoPrincipal);
+    @media (max-width: 600px) {
+        font-size: var(--txtSize4);
+    }
+
+`
 export const TxtTitulo = styled(TxtBienvenidos)`
     @media (min-width: 800px) {
         font-size: 48px;
@@ -55,8 +65,17 @@ export const TxtTitulo = styled(TxtBienvenidos)`
   
 
 `
-export const SeccionBienvenida = () => {
+export const SeccionBienvenida = ({fecha}) => {
+  
+        const dia = fecha.getDate();
+        const opcionesMes = { month: 'long' };
+        let mes = new Intl.DateTimeFormat('es-ES', opcionesMes).format(fecha);
+        const año = fecha.getFullYear();
 
+        mes = mes.charAt(0).toUpperCase() + mes.slice(1);
+
+
+        const fechaEnPalabras = `${dia} ${mes} ${año}`;
     return (
         <ContenedorBienvenida>
             <ContenedorBg>
@@ -65,6 +84,7 @@ export const SeccionBienvenida = () => {
             <ContenedorTxtBg>
             <TxtTitulo > Nuestra Boda </TxtTitulo>
             <TxtBienvenidos> ---- Mara & Iohann ---- </TxtBienvenidos>
+            <TxtFecha> {fechaEnPalabras} </TxtFecha>
             
 
             </ContenedorTxtBg>

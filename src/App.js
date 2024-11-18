@@ -15,6 +15,7 @@ import { SeccionFraseGenerica } from './secciones/Frase/SeccionFraseGenerica';
 import imgUbicacion from '../src/recursos/img/LasMaravilllasPark.jpeg'
 import imgTimer from '../src/recursos/img/imgTimer.jpg'
 import { SeccionGaleria } from './secciones/Galeria/Galeria';
+import { Footer } from './secciones/Footer/Footer';
 
 const ContenedorPrincipal = styled.div`
   display: flex;
@@ -25,7 +26,7 @@ function App() {
   return (
     <ContenedorPrincipal className="App">
 
-        <SeccionBienvenida />
+        <SeccionBienvenida fecha={data.fecha} />
         <SeccionReproductor />
         <SeccionUbicacionGenerico 
           img = {imgUbicacion}
@@ -47,7 +48,7 @@ function App() {
        <SeccionRegalo />
        <SeccionGaleria galeria = {data.galeria} />
        <SeccionFrase />
-       
+       <Footer />
     </ContenedorPrincipal>
   );
 }

@@ -53,7 +53,7 @@ export const ImgPictureConFade = ({ src, alt, fn, bg }) => {
                 }
             });
         }, {
-            threshold: .1,
+            threshold: .4,
             rootMargin: "50px 0px"
         });
     

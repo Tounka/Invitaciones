@@ -1,8 +1,9 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useContext } from "react";
 import styled from "styled-components";
 import { TxtGenerico } from "../../recursos/componentesGenericos/TxtGenericos";
 import { ContenedorGenerico } from "../../recursos/componentesGenericos/ContenedoresGenericos";
 import { ImgPictureConFade } from "../../recursos/componentesGenericos/ImgPicture";
+import { ContextoGeneral } from "../../recursos/ContextoGeneral";
 
 const ContenedorMusica = styled(ContenedorGenerico)`
     width: 100%;
@@ -34,6 +35,7 @@ const ContenedorImg = styled.div`
     height: auto;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
 
     img{
         object-fit: cover;
@@ -44,20 +46,23 @@ const ContenedorImg = styled.div`
 `
 
 export const SeccionGaleria = ({ galeria }) => {
-
+    const {setModalSeleccionado, setBoolModalGeneral} = useContext(ContextoGeneral)
     const columna1 = [];
     const columna2 = [];
-    
+    const handleClick = (imagen) => {
+        setModalSeleccionado(imagen);
+        setBoolModalGeneral(true);
+    };
     galeria.forEach((imagen, index) => {
         if (index % 2 === 0) {
             columna1.push(
-                <ContenedorImg key={index}>
+                <ContenedorImg key={index} onClick={() => handleClick(imagen)}>
                     <ImgPictureConFade src={imagen} alt={`Imagen Galeria ${index + 1}`} />
                 </ContenedorImg>
             );
         } else {
             columna2.push(
-                <ContenedorImg key={index}>
+                <ContenedorImg key={index} onClick={() => handleClick(imagen)}>
                     <ImgPictureConFade src={imagen} alt={`Imagen Galeria ${index + 1}`} />
                 </ContenedorImg>
             );

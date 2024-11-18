@@ -15,6 +15,7 @@ export const ContenedorGenericoSmall = styled.div`
     background-image: url(${bgImg}) !important;
     background-position: center;
     background-size: cover;
+
 `
 export const ContenedorGenerico = styled.div`
     display: flex;
@@ -26,7 +27,9 @@ export const ContenedorGenerico = styled.div`
     width: 100%;
     height: auto;
 
-`
+  
+
+`;
 export const ContenedorImg = styled.div`
     width: 100%;
     height: ${props => props.height ? props.height : '600px'};
