@@ -15,7 +15,7 @@ const DisplayFijoStyled = styled.div`
     overflow: auto;
     display: ${props => props.boolModalGeneral ? 'flex' : 'none'};
     justify-content: center;
-  
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5); 
 `;
 

@@ -39,7 +39,7 @@ export const SeccionUbicacionGenerico = ({ iframe, ubicacion, img }) => {
                         <TxtUbicacion color='white'>Hora 17:00</TxtUbicacion>
                         
                        
-                        <BotonMaps href="https://www.google.com/maps?q=Av.+Sábalo+Cerritos,+Cerritos,+82112+Mazatlán,+Sin." target="_blank" rel="noopener noreferrer">
+                        <BotonMaps href="https://www.google.com/maps/place/Trailer+Park+Maravillas/@23.2959442,-106.4815673,15z/data=!4m2!3m1!1s0x0:0x8f0acee5a893b301?sa=X&ved=1t:2428&ictx=111" target="_blank" rel="noopener noreferrer">
                             Mapa
                         </BotonMaps>
                     </ContenedorTxtUbicacion>

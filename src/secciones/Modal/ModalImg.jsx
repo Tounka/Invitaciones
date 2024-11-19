@@ -4,7 +4,7 @@ import { ImgPicture } from "../../recursos/componentesGenericos/ImgPicture";
 
 const ContenedorImg = styled.div`
     width: auto;
-    height: auto;
+    height: fit-content;
     padding: 10px;
     background-color: white;
 
