@@ -14,11 +14,11 @@ const ContenedorTxt = styled.div`
     align-items: center;
     justify-content: center;
     padding: 20px;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 80%;
     max-height: 80%;
     border-radius: 20px;
-    border: solid 4px var(--doradoSuave);
+    border: solid 4px var(--cafePrincipal);
     flex-direction: column;
     gap: 10px;
 `;
@@ -35,7 +35,13 @@ const IconoSobre = styled(FaRegEnvelope)`
     font-size: var(--txtSize2); /* Ajusta el tamaño del ícono */
     vertical-align: middle; /* Alineación vertical */
 `;
+const TextoFrase = styled(TxtGenerico)`
+    font-size: var(--txtSize3);
 
+    @media (max-width: 500px) {
+        font-size: var(--txtSize4);
+    }
+`
 export const SeccionRegalo = () => {
     return (
         <ContenedorRegalo>
@@ -43,11 +49,8 @@ export const SeccionRegalo = () => {
                 <TxtGenerico size='var(--txtSize1)' fontFamily='var(--fuenteElegante)'>
                     Regalos
                 </TxtGenerico>
-                <ContenedorHorizontal>
-                    <TxtGenerico size='var(--txtSize3)'>Fiesta de sobres</TxtGenerico>
-                    
-                </ContenedorHorizontal>
-                <TxtGenerico size='var(--txtSize3)'>Agradecemos tu compañía en esta nueva etapa que comenzamos. El regalo es opcional, la asistencia es obligatoria. Pero si quieres tener un detalle con nosotros tendremos lluvia de sobres ✉</TxtGenerico>
+    
+                <TextoFrase >Agradecemos tu compañía en esta nueva etapa que comenzamos. El regalo es opcional, la asistencia es obligatoria. Pero si quieres tener un detalle con nosotros tendremos lluvia de sobres ✉</TextoFrase>
                 
                 
             </ContenedorTxt>

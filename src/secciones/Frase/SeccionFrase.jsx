@@ -7,7 +7,7 @@ import { FaRegEnvelope } from "react-icons/fa6";
 const BtnConfirmar = styled.a`
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--doradoSuave);
+    background-color: var(--cafePrincipal);
     color: white;
     text-decoration: none;
     font-size: var(--txtSize3);
@@ -17,8 +17,10 @@ const BtnConfirmar = styled.a`
     text-align: center;
     transition: background-color 0.3s;
 
+    transition: opacity .2s ;
     &:hover {
-        background-color: darkgoldenrod;
+        opacity: .8;
+        transition: opacity .2s ;
     }
 `;
 
@@ -39,19 +41,26 @@ const ContenedorTxt = styled.div`
     max-width: 80%;
     height: auto;
     border-radius: 20px;
-    border: solid 4px var(--doradoSuave);
+    border: solid 4px var(--cafePrincipal);
     flex-direction: column;
     gap: 20px;
 `;
 
+const TextoFrase = styled(TxtGenerico)`
+    font-size: var(--txtSize3);
+
+    @media (max-width: 500px) {
+        font-size: var(--txtSize4);
+    }
+`
 export const SeccionFrase = () => {
     return (
         <ContenedorFrase>
             <ContenedorTxt>
                
-                <TxtGenerico size='var(--txtSize3)'>
+                <TextoFrase size='var(--txtSize3)'>
                     Hay momentos en la vida que son muy especiales por si solos, pero al compartirlo con personas tan especiales como tú se convierten en momentos imposibles de olvidar. Es por eso que para nosotros es un placer esperarte el día de nuestra boda.
-                </TxtGenerico>
+                </TextoFrase>
                 <BtnConfirmar href="https://wa.me/523313429755?text=Confirmo%20mi%20asistencia" target="_blank" rel="noopener noreferrer">
                     Confirmar asistencia
                 </BtnConfirmar>

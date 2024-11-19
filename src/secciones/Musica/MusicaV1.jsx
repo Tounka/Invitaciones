@@ -20,7 +20,7 @@ const ContenedorReproductor = styled.div`
     height: 80%;
     border-radius: 20px;
     
-    border: solid 4px var(--doradoSuave);
+    border: solid 4px var(--cafePrincipal);
     flex-direction: column;
     gap: 20px;
 `;

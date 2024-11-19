@@ -16,7 +16,7 @@ const ContenedorInterto = styled(ContenedorGenericoSmall)`
     max-width: 1200px;
     height: auto;
     padding: 10px;
-    border: solid 4px var(--doradoSuave);
+    border: solid 4px var(--cafePrincipal);
     background-image: url(null);
 `;
 
@@ -37,6 +37,21 @@ const ContenedorHorizontal = styled.div`
     align-items: center;
     gap: 10px;  
 `;
+const ContenedorVertical = styled(ContenedorHorizontal)`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+`;
+
+const ColorReservado = styled.div`
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: ${props => props.color ? props.color : ''};
+`
+
 
 export const CodigoVestimenta = ({ codigoVestimenta }) => {
     return (
@@ -50,14 +65,25 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
                         <GiAmpleDress />
                     </ContendorIcono>
                 </ContenedorHorizontal>
-                <TxtGenerico size={'var(--txtSize2)'} bold>
-                    {`Playero Formal`}
-                </TxtGenerico>
+          
+
                 <TxtGenerico size={'var(--txtSize4)'} bold>
-                    {`Les invitamos a vestir de forma elegante y cómoda, ideal para un entorno de playa. Opten por camisas de lino o algodón, vestidos ligeros y frescos, y pantalones de telas suaves como el lino. Los colores claros, pasteles o estampados tropicales son perfectos. Sandalias elegantes o zapatos sin calcetines son bienvenidos.`}
+                    Formal playero<br />
+                    Vestidos ligeros y frescos<br />
+                    Pantalones de telas suaves<br />
+                    Sandalias elegantes ó zapatos sin calcetín.
                 </TxtGenerico>
+                <ContenedorVertical>
+                    <TxtGenerico size={'var(--txtSize4)'} bold>Colores reservados</TxtGenerico>
+                    <ContenedorHorizontal> 
+                        <ColorReservado color={'#A75B37'} />
+                        <ColorReservado color={'#66725C'} />
+                    </ContenedorHorizontal>
+                </ContenedorVertical>
+           
+
                 <TxtGenerico size={'var(--txtSize4)'} bold>
-                    {`Recuerda que estaremos a pie de playa, busca tu comodidad.`}
+                    {`Recuerda que estaremos a pie de playa, busca tu comodidad.`}
                 </TxtGenerico>
             </ContenedorInterto>
         </ContenedorCodigoVestimenta>

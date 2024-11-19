@@ -32,7 +32,8 @@ export const ContenedorUbicacionGenericoSmall = styled(ContenedorGenericoSmall)`
 export const ContenedorTxtUbicacion = styled.div`
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
     width: auto;
     gap: 10px;
     height: 100%;
