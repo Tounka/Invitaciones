@@ -35,33 +35,36 @@ const ContenedorTxtBg = styled.div`
     text-align: center;
     font-size: var(--txtSize1);
     gap: 20px;
-    color: var(--blancoPrincipal);
+    color: black;
 `
 export const TxtBienvenidos = styled(TxtGenerico)`
 
+    font-size: var(--txtSize1);
+    gap: 10px;
+    color: black;
+    
+    font-family: var(--fuenteElegante);
+    @media (max-width: 600px) {
+        font-size: var(--txtSize1);
+    }
+
+`
+export const TxtFecha = styled(TxtGenerico)`
+    font-family: var(--fuenteExpecialLustria);
     font-size: var(--txtSize2);
     gap: 10px;
-    color: var(--blancoPrincipal);
+    color: black;
     @media (max-width: 600px) {
         font-size: var(--txtSize3);
     }
 
 `
-export const TxtFecha = styled(TxtGenerico)`
-
-    font-size: var(--txtSize3);
-    gap: 10px;
-    color: var(--blancoPrincipal);
-    @media (max-width: 600px) {
-        font-size: var(--txtSize4);
-    }
-
-`
 export const TxtTitulo = styled(TxtBienvenidos)`
+    font-family: var(--fuenteExpecialLustria);
     @media (min-width: 800px) {
-        font-size: 48px;
+        font-size: 40px;
     }
-    font-size: 42px;
+    font-size: 36px;
   
 
 `
@@ -83,8 +86,8 @@ export const SeccionBienvenida = ({fecha}) => {
             </ContenedorBg>
             <ContenedorTxtBg>
             <TxtTitulo > Nuestra Boda </TxtTitulo>
-            <TxtBienvenidos> ---- Mara & Iohannan ---- </TxtBienvenidos>
-            <TxtFecha> {fechaEnPalabras} </TxtFecha>
+            <TxtBienvenidos>Mara & Iohannan </TxtBienvenidos>
+            <TxtFecha> 0{fechaEnPalabras} </TxtFecha>
             
 
             </ContenedorTxtBg>

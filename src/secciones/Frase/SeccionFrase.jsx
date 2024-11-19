@@ -29,7 +29,7 @@ const ContenedorFrase = styled(ContenedorGenericoSmall)`
     height: auto;
     gap: 10px;
     padding: 20px;
-    background-image: url('') !important;
+
 `;
 
 const ContenedorTxt = styled.div`

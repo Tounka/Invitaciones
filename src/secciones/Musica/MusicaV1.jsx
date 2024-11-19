@@ -33,7 +33,7 @@ const ContenedorBtnPlay = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--doradoSuave);
+    background-color: var(--cafePrincipal);
     flex-shrink: 1;
     svg {
         cursor: pointer;

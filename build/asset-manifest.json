@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c8eefd6.css",
-    "main.js": "/static/js/main.b800bf9b.js",
+    "main.css": "/static/css/main.718cb33f.css",
+    "main.js": "/static/js/main.0ed56326.js",
     "static/media/CancionEspecial.mp3": "/static/media/CancionEspecial.c6bdd200bc7827b7d18c.mp3",
     "static/media/Galeria4.jpg": "/static/media/Galeria4.fccf391c942a00888b9d.jpg",
     "static/media/Galeria7.jpg": "/static/media/Galeria7.01ccfc67a9d6a552f68b.jpg",
@@ -10,20 +10,21 @@
     "static/media/Galeria5.jpg": "/static/media/Galeria5.48f8172c6ad0bfc32fb8.jpg",
     "static/media/Galeria2.jpg": "/static/media/Galeria2.5298b38e443a858b1f91.jpg",
     "static/media/Galeria3.jpg": "/static/media/Galeria3.d435324fb4c37213aae5.jpg",
-    "static/media/GreatVibes-Regular.ttf": "/static/media/GreatVibes-Regular.f51f1a4f2cd0c9611249.ttf",
     "static/media/Galeria9.jpg": "/static/media/Galeria9.be12535b25f57d57e9e3.jpg",
     "static/media/imgTimer.jpg": "/static/media/imgTimer.5a31d0637be4312bc81a.jpg",
+    "static/media/imgPrincipal.jpg": "/static/media/imgPrincipal.8c71309ffa3692a6a281.jpg",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.bf46a6bcddc9999a295e.ttf",
     "static/media/Galeria1.jpg": "/static/media/Galeria1.26654d90cac7d06f4ac1.jpg",
-    "static/media/imgPrincipal.jpg": "/static/media/imgPrincipal.72ac9bfac3fdab3eecd1.jpg",
+    "static/media/DancingScript-VariableFont_wght.ttf": "/static/media/DancingScript-VariableFont_wght.d02a1ee17643667e9808.ttf",
     "static/media/LasMaravilllasPark.jpg": "/static/media/LasMaravilllasPark.d1fa5e8667674dea65af.jpg",
+    "static/media/Lustria-Regular.ttf": "/static/media/Lustria-Regular.87ee6939acedb75a9bde.ttf",
     "static/media/bgImage.jpg": "/static/media/bgImage.0bad81b6024907f7c54b.jpg",
     "index.html": "/index.html",
-    "main.4c8eefd6.css.map": "/static/css/main.4c8eefd6.css.map",
-    "main.b800bf9b.js.map": "/static/js/main.b800bf9b.js.map"
+    "main.718cb33f.css.map": "/static/css/main.718cb33f.css.map",
+    "main.0ed56326.js.map": "/static/js/main.0ed56326.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c8eefd6.css",
-    "static/js/main.b800bf9b.js"
+    "static/css/main.718cb33f.css",
+    "static/js/main.0ed56326.js"
   ]
 }

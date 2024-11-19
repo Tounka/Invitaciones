@@ -3,11 +3,13 @@
   --rosaPrincipal: #ffafcc; 
   --doradoSuave: #fbc739; 
   --cafePrincipal: #7E5C40; 
+  --cafeEspecial: #7F550E; 
 
 
 
   --fuenteElegante: 'fuenteElegante';
   --fuenteRegular: 'fuenteRegular';
+  --fuenteExpecialLustria: 'fuenteExpecialLustria';
 
 
   --txtSize1: 38px;
@@ -19,13 +21,19 @@
 }
 @font-face {
   font-family: 'fuenteElegante';
-  src: url('./recursos/fuentes/GreatVibes-Regular.ttf') format('truetype');
+  src: url('./recursos/fuentes/DancingScript-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'fuenteRegular';
   src: url('./recursos/fuentes/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fuenteExpecialLustria';
+  src: url('./recursos/fuentes/Lustria-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
