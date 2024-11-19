@@ -44,7 +44,7 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
             <ContenedorInterto>
                 <ContenedorHorizontal>
                     <TxtGenerico size={'var(--txtSize1)' } fontFamily='var(--fuenteElegante)' bold>
-                        {`Código Vestimenta`}
+                        {`Dress Code`}
                     </TxtGenerico>
                     <ContendorIcono>
                         <GiAmpleDress />
@@ -55,6 +55,9 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
                 </TxtGenerico>
                 <TxtGenerico size={'var(--txtSize4)'} bold>
                     {`Les invitamos a vestir de forma elegante y cómoda, ideal para un entorno de playa. Opten por camisas de lino o algodón, vestidos ligeros y frescos, y pantalones de telas suaves como el lino. Los colores claros, pasteles o estampados tropicales son perfectos. Sandalias elegantes o zapatos sin calcetines son bienvenidos.`}
+                </TxtGenerico>
+                <TxtGenerico size={'var(--txtSize4)'} bold>
+                    {`Recuerda que estaremos a pie de playa, busca tu comodidad.`}
                 </TxtGenerico>
             </ContenedorInterto>
         </ContenedorCodigoVestimenta>

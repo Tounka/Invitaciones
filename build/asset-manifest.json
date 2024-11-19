@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d7ad0b8c.css",
-    "main.js": "/static/js/main.ae49b1a9.js",
+    "main.js": "/static/js/main.ffd7f392.js",
     "static/media/CancionEspecial.mp3": "/static/media/CancionEspecial.c6bdd200bc7827b7d18c.mp3",
     "static/media/Galeria4.jpg": "/static/media/Galeria4.fccf391c942a00888b9d.jpg",
     "static/media/Galeria7.jpg": "/static/media/Galeria7.01ccfc67a9d6a552f68b.jpg",
@@ -16,14 +16,14 @@
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.bf46a6bcddc9999a295e.ttf",
     "static/media/Galeria1.jpg": "/static/media/Galeria1.26654d90cac7d06f4ac1.jpg",
     "static/media/imgPrincipal.jpg": "/static/media/imgPrincipal.72ac9bfac3fdab3eecd1.jpg",
-    "static/media/LasMaravilllasPark.jpeg": "/static/media/LasMaravilllasPark.4ca64fe86b1251d16e66.jpeg",
+    "static/media/LasMaravilllasPark.jpg": "/static/media/LasMaravilllasPark.d1fa5e8667674dea65af.jpg",
     "static/media/bgImage.jpg": "/static/media/bgImage.0bad81b6024907f7c54b.jpg",
     "index.html": "/index.html",
     "main.d7ad0b8c.css.map": "/static/css/main.d7ad0b8c.css.map",
-    "main.ae49b1a9.js.map": "/static/js/main.ae49b1a9.js.map"
+    "main.ffd7f392.js.map": "/static/js/main.ffd7f392.js.map"
   },
   "entrypoints": [
     "static/css/main.d7ad0b8c.css",
-    "static/js/main.ae49b1a9.js"
+    "static/js/main.ffd7f392.js"
   ]
 }

@@ -17,9 +17,10 @@ export const SeccionUbicacionGenerico = ({iframe, ubicacion, img}) =>{
                     <ContenedorImgParallax height='100%' src={img}/>
 
                     <ContenedorTxtUbicacion>
-                        <TxtEspecialUbicacion  color='white' > Ubicacion </TxtEspecialUbicacion>
+                        <TxtEspecialUbicacion  color='white' >  Recepción    </TxtEspecialUbicacion>
                         <TxtUbicacion  color='white' > {ubicacion} </TxtUbicacion>
                         <TxtUbicacion  color='white' >  Av. Sábalo Cerritos, Cerritos, 82112 Mazatlán, Sin. </TxtUbicacion>
+                        <TxtUbicacion  color='white' >  Hora 17:00 </TxtUbicacion>
                     </ContenedorTxtUbicacion>
 
                 </ContenedorUbicacionGenericoSmall>

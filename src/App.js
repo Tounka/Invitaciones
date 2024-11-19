@@ -12,7 +12,7 @@ import { SeccionRegalo } from './secciones/Regalo/SeccionRegalo';
 import { SeccionFrase } from './secciones/Frase/SeccionFrase';
 import { SeccionFraseGenerica } from './secciones/Frase/SeccionFraseGenerica';
 
-import imgUbicacion from '../src/recursos/img/LasMaravilllasPark.jpeg'
+import imgUbicacion from '../src/recursos/img/LasMaravilllasPark.jpg'
 import imgTimer from '../src/recursos/img/imgTimer.jpg'
 import { SeccionGaleria } from './secciones/Galeria/Galeria';
 import { Footer } from './secciones/Footer/Footer';
@@ -28,6 +28,7 @@ function App() {
 
         <SeccionBienvenida fecha={data.fecha} />
         <SeccionReproductor />
+        <SeccionFrase />
         <SeccionUbicacionGenerico 
           img = {imgUbicacion}
           ubicacion = {data.ubicacion}
@@ -47,7 +48,6 @@ function App() {
        <TimerV2 fecha = {data.fecha} imgTimer={imgTimer}  />
        <SeccionRegalo />
        <SeccionGaleria galeria = {data.galeria} />
-       <SeccionFrase />
        <Footer />
     </ContenedorPrincipal>
   );

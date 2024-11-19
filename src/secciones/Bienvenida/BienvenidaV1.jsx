@@ -61,7 +61,7 @@ export const TxtTitulo = styled(TxtBienvenidos)`
     @media (min-width: 800px) {
         font-size: 48px;
     }
-    font-size: var(--txtSize1);
+    font-size: 42px;
   
 
 `
@@ -83,7 +83,7 @@ export const SeccionBienvenida = ({fecha}) => {
             </ContenedorBg>
             <ContenedorTxtBg>
             <TxtTitulo > Nuestra Boda </TxtTitulo>
-            <TxtBienvenidos> ---- Mara & Iohann ---- </TxtBienvenidos>
+            <TxtBienvenidos> ---- Mara & Iohannan ---- </TxtBienvenidos>
             <TxtFecha> {fechaEnPalabras} </TxtFecha>
             
 

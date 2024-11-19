@@ -7,6 +7,7 @@ import cancion from '../../../src/recursos/img/CancionEspecial.mp3';
 
 const ContenedorMusica = styled(ContenedorGenericoSmall)`
     width: 100%;
+    
 `;
 
 const ContenedorReproductor = styled.div`
@@ -18,6 +19,7 @@ const ContenedorReproductor = styled.div`
     max-width: 80%;
     height: 80%;
     border-radius: 20px;
+    
     border: solid 4px var(--doradoSuave);
     flex-direction: column;
     gap: 20px;

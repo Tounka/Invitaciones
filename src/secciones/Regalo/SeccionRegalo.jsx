@@ -5,6 +5,8 @@ import { FaRegEnvelope } from "react-icons/fa6";
 
 const ContenedorRegalo = styled(ContenedorGenericoSmall)`
     width: 100%;
+    height: auto;
+    padding: 20px 0; 
 `;
 
 const ContenedorTxt = styled.div`
@@ -12,18 +14,18 @@ const ContenedorTxt = styled.div`
     align-items: center;
     justify-content: center;
     padding: 20px;
-    width: 400px;
+    min-width: 400px;
     max-width: 80%;
-    height: 80%;
+    max-height: 80%;
     border-radius: 20px;
     border: solid 4px var(--doradoSuave);
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 `;
 
 const ContenedorHorizontal = styled.div`
     display: flex;
-    height: 60px;
+    height: 40px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -45,7 +47,8 @@ export const SeccionRegalo = () => {
                     <TxtGenerico size='var(--txtSize3)'>Fiesta de sobres</TxtGenerico>
                     
                 </ContenedorHorizontal>
-                <TxtGenerico size='var(--txtSize4)'> <IconoSobre  /></TxtGenerico>
+                <TxtGenerico size='var(--txtSize3)'>Agradecemos tu compañía en esta nueva etapa que comenzamos. El regalo es opcional, la asistencia es obligatoria. Pero si quieres tener un detalle con nosotros tendremos lluvia de sobres ✉</TxtGenerico>
+                
                 
             </ContenedorTxt>
         </ContenedorRegalo>

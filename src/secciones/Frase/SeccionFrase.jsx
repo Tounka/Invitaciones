@@ -27,6 +27,7 @@ const ContenedorFrase = styled(ContenedorGenericoSmall)`
     height: auto;
     gap: 10px;
     padding: 20px;
+    background-image: url('') !important;
 `;
 
 const ContenedorTxt = styled.div`
@@ -47,11 +48,9 @@ export const SeccionFrase = () => {
     return (
         <ContenedorFrase>
             <ContenedorTxt>
-                <TxtGenerico size='var(--txtSize1)' fontFamily='var(--fuenteElegante)'>
-                    Te esperamos
-                </TxtGenerico>
+               
                 <TxtGenerico size='var(--txtSize3)'>
-                    Hay momentos en la vida que son muy especiales por si solos, pero al compartirlo con personas tan especiales como tú se convierten en momentos imposibles de olvidar.
+                    Hay momentos en la vida que son muy especiales por si solos, pero al compartirlo con personas tan especiales como tú se convierten en momentos imposibles de olvidar. Es por eso que para nosotros es un placer esperarte el día de nuestra boda.
                 </TxtGenerico>
                 <BtnConfirmar href="https://wa.me/523313429755?text=Confirmo%20mi%20asistencia" target="_blank" rel="noopener noreferrer">
                     Confirmar asistencia

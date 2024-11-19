@@ -13,6 +13,11 @@ const FooterStyled = styled.div`
     justify-content:center;
     align-items:center;
 
+    text-align: center;
+
+    @media (max-width: 500px) {
+        font-size: 18px;
+    }
 
 
 
