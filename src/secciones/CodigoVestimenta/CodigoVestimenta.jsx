@@ -61,17 +61,15 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
                     <TxtGenerico size={'var(--txtSize1)' } fontFamily='var(--fuenteElegante)' bold>
                         {`Dress Code`}
                     </TxtGenerico>
-                    <ContendorIcono>
-                        <GiAmpleDress />
-                    </ContendorIcono>
+              
                 </ContenedorHorizontal>
           
 
                 <TxtGenerico size={'var(--txtSize4)'} bold>
-                    Formal playero<br />
-                    Vestidos ligeros y frescos<br />
-                    Pantalones de telas suaves<br />
-                    Sandalias elegantes ó zapatos sin calcetín.
+                    <br />
+                    COCKTAIL
+                    <br />
+                    <br />
                 </TxtGenerico>
                 <ContenedorVertical>
                     <TxtGenerico size={'var(--txtSize4)'} bold>Colores reservados</TxtGenerico>
