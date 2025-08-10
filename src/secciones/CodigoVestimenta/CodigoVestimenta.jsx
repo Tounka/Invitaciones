@@ -74,7 +74,7 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
                 <ContenedorVertical>
                     <TxtGenerico size={'var(--txtSize4)'} bold>Colores reservados</TxtGenerico>
                     <ContenedorHorizontal> 
-                        <ColorReservado color={'#A75B37'} />
+                        <ColorReservado color={'#FDB086'} />
                         <ColorReservado color={'#66725C'} />
                     </ContenedorHorizontal>
                 </ContenedorVertical>
