@@ -5,7 +5,7 @@ import { ImgPicture } from "../../recursos/componentesGenericos/ImgPicture";
 const ContenedorImg = styled.div`
     width: auto;
     max-height: 90dvh;
-    max-width: 90dvw;
+    max-width: 95dvw;
     height: 90%;
     max-height: auto;
     padding: 10px;
