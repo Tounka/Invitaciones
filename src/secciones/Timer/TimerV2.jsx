@@ -9,6 +9,11 @@ const ContenedorTimerGenerico = styled(ContenedorGenericoSmall)`
     width: 100%;
     height: 400px;
     position: relative;
+    
+    @media (min-width:600px) {
+        height: 600px;
+        
+    }
 
 `
 const ContenedorImgBg = styled(ContenedorImg)`

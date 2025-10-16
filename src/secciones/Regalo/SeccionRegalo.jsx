@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { TxtGenerico } from "../../recursos/componentesGenericos/TxtGenericos";
 import { ContenedorGenericoSmall } from "../../recursos/componentesGenericos/ContenedoresGenericos";
 import { FaRegEnvelope } from "react-icons/fa6";
+import { data } from "../../Data";
 
 const ContenedorRegalo = styled(ContenedorGenericoSmall)`
     width: 100%;
@@ -50,7 +51,7 @@ export const SeccionRegalo = () => {
                     Regalos
                 </TxtGenerico>
     
-                <TextoFrase >Agradecemos tu compañía en esta nueva etapa que comenzamos. El regalo es opcional, la asistencia es obligatoria. Pero si quieres tener un detalle con nosotros tendremos lluvia de sobres ✉</TextoFrase>
+                <TextoFrase >{data.msgRegalo}</TextoFrase>
                 
                 
             </ContenedorTxt>

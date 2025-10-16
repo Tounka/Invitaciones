@@ -6,6 +6,7 @@ import { ContenedorImg } from "../../recursos/componentesGenericos/ContenedoresG
 import { ImgPicture } from "../../recursos/componentesGenericos/ImgPicture";
 
 import imgBienvenida from '../../recursos/img/imgPrincipal.jpg';
+import { data } from "../../Data";
 
 const ContenedorBg = styled(ContenedorImg)`
     height: 100%;
@@ -34,14 +35,14 @@ const ContenedorTxtBg = styled.div`
     left: 0;
     text-align: center;
     font-size: var(--txtSize1);
-    gap: 20px;
+    gap: 10px;
     color: black;
 `
 export const TxtBienvenidos = styled(TxtGenerico)`
 
     font-size: var(--txtSize1);
     gap: 10px;
-    color: black;
+  color:white;
     
     font-family: var(--fuenteElegante);
     @media (max-width: 600px) {
@@ -53,7 +54,7 @@ export const TxtFecha = styled(TxtGenerico)`
     font-family: var(--fuenteExpecialLustria);
     font-size: var(--txtSize2);
     gap: 10px;
-    color: black;
+color:white;
     @media (max-width: 600px) {
         font-size: var(--txtSize3);
     }
@@ -65,6 +66,8 @@ export const TxtTitulo = styled(TxtBienvenidos)`
         font-size: 40px;
     }
     font-size: 36px;
+    color:white;
+    
   
 
 `
@@ -86,8 +89,8 @@ export const SeccionBienvenida = ({fecha}) => {
             </ContenedorBg>
             <ContenedorTxtBg>
             <TxtTitulo > Nuestra Boda </TxtTitulo>
-            <TxtBienvenidos>Mara & Iohannan </TxtBienvenidos>
-            <TxtFecha> 0{fechaEnPalabras} </TxtFecha>
+            <TxtBienvenidos>{data.nombres[0].split(" ")[0]} {" y "} {data.nombres[1].split(" ")[0]}</TxtBienvenidos>
+            <TxtFecha> {fechaEnPalabras} </TxtFecha>
             
 
             </ContenedorTxtBg>

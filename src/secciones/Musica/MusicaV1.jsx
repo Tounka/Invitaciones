@@ -3,7 +3,8 @@ import styled from "styled-components";
 import { TxtGenerico } from "../../recursos/componentesGenericos/TxtGenericos";
 import { ContenedorGenericoSmall } from "../../recursos/componentesGenericos/ContenedoresGenericos";
 import { FaPlay, FaPause } from "react-icons/fa";
-import cancion from '../../../src/recursos/img/CancionEspecial.mp3';
+
+import { data } from "../../Data";
 
 const ContenedorMusica = styled(ContenedorGenericoSmall)`
     width: 100%;
@@ -44,7 +45,7 @@ const ContenedorBtnPlay = styled.div`
 
 export const SeccionReproductor = () => {
     const [isPlaying, setIsPlaying] = useState(false);
-    const audioRef = useRef(new Audio(cancion));
+    const audioRef = useRef(new Audio(data.cancion));
 
     const togglePlayPause = () => {
         if (isPlaying) {
@@ -74,7 +75,7 @@ export const SeccionReproductor = () => {
         <ContenedorMusica>
             <ContenedorReproductor>
                 <TxtGenerico size='var(--txtSize2)'>Escucha nuestra canción favorita</TxtGenerico>
-                <TxtGenerico size='var(--txtSize5)' fontFamily='var(--fuenteElegante)' >'Joaquin Sabina - Contigo'</TxtGenerico>
+                <TxtGenerico size='var(--txtSize5)' fontFamily='var(--fuenteElegante)' >'{data.nombreCancion}'</TxtGenerico>
                 <ContenedorBtnPlay onClick={togglePlayPause}>
                     {isPlaying ? <FaPause /> : <FaPlay />}
                 </ContenedorBtnPlay>

@@ -5,6 +5,7 @@ import { ContenedorGenericoSmall } from "../../recursos/componentesGenericos/Con
 import { GiAmpleDress } from "react-icons/gi";
 
 import bgImg from '../../recursos/img/bgImage.jpg'
+import { data } from "../../Data";
 const ContenedorCodigoVestimenta = styled(ContenedorGenericoSmall)`
     width: 100%;
     height: auto;
@@ -58,31 +59,36 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
         <ContenedorCodigoVestimenta>
             <ContenedorInterto>
                 <ContenedorHorizontal>
-                    <TxtGenerico size={'var(--txtSize1)' } fontFamily='var(--fuenteElegante)' bold>
+                    <TxtGenerico size={'var(--txtSize1)'} fontFamily='var(--fuenteElegante)' bold>
                         {`Dress Code`}
                     </TxtGenerico>
-              
-                </ContenedorHorizontal>
-          
 
-                <TxtGenerico size={'var(--txtSize4)'} bold>
+                </ContenedorHorizontal>
+
+
+                {/* <TxtGenerico size={'var(--txtSize4)'} bold>
                     <br />
                     COCKTAIL
                     <br />
                     <br />
+                </TxtGenerico> */}
+
+                <TxtGenerico size={'var(--txtSize4)'} bold>
+                    {data.msgCodigoVestimenta}
                 </TxtGenerico>
                 <ContenedorVertical>
                     <TxtGenerico size={'var(--txtSize4)'} bold>Colores reservados</TxtGenerico>
-                    <ContenedorHorizontal> 
-                        <ColorReservado color={'#FDB086'} />
-                        <ColorReservado color={'#66725C'} />
+                    <ContenedorHorizontal>
+                        {/* <ColorReservado color={'#FDB086'} /> */}
+                        {data.coloresReservados.map((color, index) =>{
+                            return(
+
+                                <ColorReservado key={index} color={color} />
+                            )
+                        })}
                     </ContenedorHorizontal>
                 </ContenedorVertical>
-           
 
-                <TxtGenerico size={'var(--txtSize4)'} bold>
-                    {`Recuerda que estaremos a pie de playa, busca tu comodidad.`}
-                </TxtGenerico>
             </ContenedorInterto>
         </ContenedorCodigoVestimenta>
     );

@@ -11,7 +11,7 @@ export const ContenedorSeccionUbicacionGenerico = styled(ContenedorGenerico)`
 `
 export const ContenedorInternoUbicacion = styled(ContenedorGenerico)`
     width: 100%;
-    max-width: 1200px;
+  
     gap: 0;
     background-color: var(--blancoPrincipal);
 `

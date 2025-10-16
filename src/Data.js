@@ -7,11 +7,25 @@ import img6 from './recursos/img/GaleriaImg/Galeria6.jpg';
 import img7 from './recursos/img/GaleriaImg/Galeria7.jpg';
 import img8 from './recursos/img/GaleriaImg/Galeria8.jpg';
 import img9 from './recursos/img/GaleriaImg/Galeria9.jpg';
+import cancion from './recursos/img/CancionEspecial.mp3';
 
-export const data ={
-    tipoEvento:'Nuestra Boda',
-    nombres: ['Mara Patricia Barraza Marquez' , 'Iohannan Arturo cruz Morales'],
-    ubicacion:'Las Maravillas Trailer Park',
-    fecha: new Date(2025,4,2),
-    galeria: [img1,img2,img3,img4,img5,img6,img7,img8,img9]
+export const data = {
+    tipoEvento: 'Nuestra Boda',
+    nombres: ['Fátima Márquez', 'Jorge Aceves'],
+    fecha: new Date(2026, 3, 21),
+    galeria: [img1, img2, img3, img4, img5, img6, img7, img8, img9],
+    msgRegalo: "Agradecemos tu compañía en esta nueva etapa que comenzamos. El regalo es opcional, la asistencia es obligatoria. Pero si quieres tener un detalle con nosotros tendremos lluvia de sobres ✉",
+    msgCodigoVestimenta: "Formal, color verde esmeralda reservado para las damas",
+    
+    coloresReservados: ["#046307"],
+
+    nombreUbicacion:"Parroquia nuestra señora del rosario (templo del padre Galván)",
+    ubicacion: 'Calle, Oro Grande 1600, 45580 San Pedro Tlaquepaque, Jal.',
+    ubicacionMaps: [
+        "https://maps.app.goo.gl/tyeouXAoKzRFFWRH6"
+    ],
+    horaEventoUbicacion:"19:30",
+    nombreCancion:"Morat - A Dónde Vamos",
+    cancion: cancion,
+
 }

@@ -12,7 +12,7 @@ import { SeccionRegalo } from './secciones/Regalo/SeccionRegalo';
 import { SeccionFrase } from './secciones/Frase/SeccionFrase';
 import { SeccionFraseGenerica } from './secciones/Frase/SeccionFraseGenerica';
 
-import imgUbicacion from '../src/recursos/img/LasMaravilllasParkLegacy.jpeg'
+import imgUbicacion from '../src/recursos/img/imgLugarEvento.jpg'
 import imgTimer from '../src/recursos/img/imgTimer.jpg'
 import { SeccionGaleria } from './secciones/Galeria/Galeria';
 import { Footer } from './secciones/Footer/Footer';
