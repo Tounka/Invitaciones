@@ -19,7 +19,7 @@ export const data = {
     
     coloresReservados: ["#046307"],
 
-    nombreUbicacion:"Parroquia nuestra señora del rosario (templo del padre Galván)",
+    nombreUbicacion:"Hacienda De Eventos Cachas De Oro",
     ubicacion: 'Calle, Oro Grande 1600, 45580 San Pedro Tlaquepaque, Jal.',
     ubicacionMaps: [
         "https://maps.app.goo.gl/tyeouXAoKzRFFWRH6"

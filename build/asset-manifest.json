@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.718cb33f.css",
-    "main.js": "/static/js/main.eac3df51.js",
-    "static/media/CancionEspecial.mp3": "/static/media/CancionEspecial.c6bdd200bc7827b7d18c.mp3",
-    "static/media/Galeria4.jpg": "/static/media/Galeria4.fccf391c942a00888b9d.jpg",
-    "static/media/Galeria7.jpg": "/static/media/Galeria7.01ccfc67a9d6a552f68b.jpg",
-    "static/media/Galeria8.jpg": "/static/media/Galeria8.ceacd740f76e470f3c88.jpg",
-    "static/media/Galeria6.jpg": "/static/media/Galeria6.5081deac2aa2d117eaf0.jpg",
-    "static/media/Galeria5.jpg": "/static/media/Galeria5.48f8172c6ad0bfc32fb8.jpg",
-    "static/media/Galeria2.jpg": "/static/media/Galeria2.5298b38e443a858b1f91.jpg",
-    "static/media/Galeria3.jpg": "/static/media/Galeria3.d435324fb4c37213aae5.jpg",
-    "static/media/Galeria9.jpg": "/static/media/Galeria9.be12535b25f57d57e9e3.jpg",
-    "static/media/imgTimer.jpg": "/static/media/imgTimer.5a31d0637be4312bc81a.jpg",
-    "static/media/imgPrincipal.jpg": "/static/media/imgPrincipal.8c71309ffa3692a6a281.jpg",
+    "main.js": "/static/js/main.a286a6ec.js",
+    "static/media/CancionEspecial.mp3": "/static/media/CancionEspecial.95363066c9ee63788264.mp3",
+    "static/media/Galeria4.jpg": "/static/media/Galeria4.34cb78e66ccaa340cb32.jpg",
+    "static/media/imgLugarEvento.jpg": "/static/media/imgLugarEvento.8ed8104ec6536542a2f0.jpg",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/static/media/PlayfairDisplay-VariableFont_wght.bf46a6bcddc9999a295e.ttf",
-    "static/media/Galeria1.jpg": "/static/media/Galeria1.26654d90cac7d06f4ac1.jpg",
+    "static/media/Galeria5.jpg": "/static/media/Galeria5.a9dfc4e003853867f8f7.jpg",
+    "static/media/Galeria1.jpg": "/static/media/Galeria1.f98bef19a120ab9f4cef.jpg",
+    "static/media/Galeria9.jpg": "/static/media/Galeria9.65841b7ac7b2fe6e126d.jpg",
+    "static/media/imgCatedral.jpg": "/static/media/imgCatedral.af1cb2ac2a3a79a61f69.jpg",
+    "static/media/Galeria8.jpg": "/static/media/Galeria8.6dd64fcc585f663ecf65.jpg",
+    "static/media/Galeria6.jpg": "/static/media/Galeria6.d7686d981404a8abff1f.jpg",
+    "static/media/imgPrincipal.jpg": "/static/media/imgPrincipal.521226679de0576fbdbe.jpg",
+    "static/media/Galeria2.jpg": "/static/media/Galeria2.da0fea0ecb96481cc29a.jpg",
     "static/media/DancingScript-VariableFont_wght.ttf": "/static/media/DancingScript-VariableFont_wght.d02a1ee17643667e9808.ttf",
-    "static/media/LasMaravilllasParkLegacy.jpeg": "/static/media/LasMaravilllasParkLegacy.4ca64fe86b1251d16e66.jpeg",
+    "static/media/Galeria7.jpg": "/static/media/Galeria7.76c32132c498173b9d5f.jpg",
+    "static/media/Galeria3.jpg": "/static/media/Galeria3.7c9764538d2c4ec1c788.jpg",
+    "static/media/imgTimer.jpg": "/static/media/imgTimer.83e7aca3c3dee31f5fb9.jpg",
     "static/media/Lustria-Regular.ttf": "/static/media/Lustria-Regular.87ee6939acedb75a9bde.ttf",
     "static/media/bgImage.jpg": "/static/media/bgImage.0bad81b6024907f7c54b.jpg",
     "index.html": "/index.html",
     "main.718cb33f.css.map": "/static/css/main.718cb33f.css.map",
-    "main.eac3df51.js.map": "/static/js/main.eac3df51.js.map"
+    "main.a286a6ec.js.map": "/static/js/main.a286a6ec.js.map"
   },
   "entrypoints": [
     "static/css/main.718cb33f.css",
-    "static/js/main.eac3df51.js"
+    "static/js/main.a286a6ec.js"
   ]
 }

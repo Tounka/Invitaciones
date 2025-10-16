@@ -4,7 +4,6 @@ import { ContenedorGenericoSmall } from "../../recursos/componentesGenericos/Con
 import { TxtGenerico } from "../../recursos/componentesGenericos/TxtGenericos";
 import { ContenedorImg, ContenedorImgParallax } from "../../recursos/componentesGenericos/ContenedoresGenericos";
 import { ImgPicture } from "../../recursos/componentesGenericos/ImgPicture";
-import { data } from "../../Data";
 
 // Componente del botón estilizado
 const BotonMaps = styled.a`
@@ -26,7 +25,7 @@ const BotonMaps = styled.a`
     }
 `;
 
-export const SeccionUbicacionGenerico = ({  img }) => {
+export const SeccionUbicacionGenerico = ({  img, data }) => {
     return (
         <ContenedorSeccionUbicacionGenerico>
             <ContenedorInternoUbicacion>
