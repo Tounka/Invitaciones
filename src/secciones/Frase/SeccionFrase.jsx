@@ -53,20 +53,21 @@ const TextoFrase = styled(TxtGenerico)`
         font-size: var(--txtSize4);
     }
 `
-export const SeccionFrase = () => {
+export const SeccionFrase = ({ telefono, frase}) => {
     return (
         <ContenedorFrase>
             <ContenedorTxt>
-               
+
                 <TextoFrase size='var(--txtSize3)'>
-                    Hay momentos en la vida que son muy especiales por si solos, pero al compartirlo con personas tan especiales como tú se convierten en momentos imposibles de olvidar. Es por eso que para nosotros es un placer esperarte el día de nuestra boda.
+                    {frase}
                 </TextoFrase>
-                <BtnConfirmar href="https://wa.me/523313429755?text=Confirmo%20mi%20asistencia" target="_blank" rel="noopener noreferrer">
-                    Confirmar asistencia
-                </BtnConfirmar>
-            </ContenedorTxt>
+                <BtnConfirmar href={`https://wa.me/${telefono}?text=Confirmo%20mi%20asistencia`} target="_blank" rel="noopener noreferrer">
+
+                Confirmar asistencia
+            </BtnConfirmar>
+        </ContenedorTxt>
 
        
-        </ContenedorFrase>
+        </ContenedorFrase >
     );
 };

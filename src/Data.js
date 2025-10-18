@@ -11,13 +11,14 @@ import cancion from './recursos/img/CancionEspecial.mp3';
 
 export const data = {
     tipoEvento: 'Nuestra Boda',
-    nombres: ['Fátima Márquez', 'Jorge Aceves'],
+    nombres: ['Fátima Márquez', 'Octavio Aceves'],
+
+    textoConfirmarAsistencia:"Con amor y gratitud, queremos compartir con ustedes el día en que uniremos nuestras vidas. Con cariño, les pedimos que esta celebración sea solo para adultos",
     fecha: new Date(2026, 3, 21),
     galeria: [img1, img2, img3, img4, img5, img6, img7, img8, img9],
     msgRegalo: "Agradecemos tu compañía en esta nueva etapa que comenzamos. El regalo es opcional, la asistencia es obligatoria. Pero si quieres tener un detalle con nosotros tendremos lluvia de sobres ✉",
-    msgCodigoVestimenta: "Formal, color verde esmeralda reservado para las damas",
-    
-    coloresReservados: ["#046307"],
+    msgCodigoVestimenta: "Formal, Blanco reservado para la novia y verde esmeralda reservado para las damas",
+    coloresReservados: ["#046307", "#fff"],
 
     nombreUbicacion:"Hacienda De Eventos Cachas De Oro",
     ubicacion: 'Calle, Oro Grande 1600, 45580 San Pedro Tlaquepaque, Jal.',
@@ -27,5 +28,6 @@ export const data = {
     horaEventoUbicacion:"19:30",
     nombreCancion:"Morat - A Dónde Vamos",
     cancion: cancion,
+    telefono:"3319904978"
 
 }
