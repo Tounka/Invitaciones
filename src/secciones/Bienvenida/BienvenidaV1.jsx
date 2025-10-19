@@ -24,6 +24,7 @@ const ContenedorBienvenida = styled(ContenedorGenerico)`
     height: 100dvh;
     overflow: hidden;
     position: relative;
+ 
 `
 const ContenedorTxtBg = styled.div`
     height: auto;
@@ -37,6 +38,7 @@ const ContenedorTxtBg = styled.div`
     font-size: var(--txtSize1);
     gap: 10px;
     color: black;
+     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 `
 export const TxtBienvenidos = styled(TxtGenerico)`
 
@@ -71,27 +73,27 @@ export const TxtTitulo = styled(TxtBienvenidos)`
   
 
 `
-export const SeccionBienvenida = ({fecha}) => {
-  
-        const dia = fecha.getDate();
-        const opcionesMes = { month: 'long' };
-        let mes = new Intl.DateTimeFormat('es-ES', opcionesMes).format(fecha);
-        const año = fecha.getFullYear();
+export const SeccionBienvenida = ({ fecha }) => {
 
-        mes = mes.charAt(0).toUpperCase() + mes.slice(1);
+    const dia = fecha.getDate();
+    const opcionesMes = { month: 'long' };
+    let mes = new Intl.DateTimeFormat('es-ES', opcionesMes).format(fecha);
+    const año = fecha.getFullYear();
+
+    mes = mes.charAt(0).toUpperCase() + mes.slice(1);
 
 
-        const fechaEnPalabras = `${dia} ${mes} ${año}`;
+    const fechaEnPalabras = `${dia} ${mes} ${año}`;
     return (
         <ContenedorBienvenida>
             <ContenedorBg>
                 <ImgPicture src={imgBienvenida} alt='Imagen de bienvenida' />
             </ContenedorBg>
             <ContenedorTxtBg>
-            <TxtTitulo > Nuestra Boda </TxtTitulo>
-            <TxtBienvenidos>{data.nombres[0].split(" ")[0]} {" y "} {data.nombres[1].split(" ")[0]}</TxtBienvenidos>
-            <TxtFecha> {fechaEnPalabras} </TxtFecha>
-            
+                <TxtTitulo > Nuestra Boda </TxtTitulo>
+                <TxtBienvenidos>{data.nombres[0].split(" ")[0]} {" y "} {data.nombres[1].split(" ")[0]}</TxtBienvenidos>
+                <TxtFecha> {fechaEnPalabras} </TxtFecha>
+
 
             </ContenedorTxtBg>
         </ContenedorBienvenida>

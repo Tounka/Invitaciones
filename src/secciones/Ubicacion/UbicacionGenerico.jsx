@@ -25,7 +25,7 @@ const BotonMaps = styled.a`
     }
 `;
 
-export const SeccionUbicacionGenerico = ({  img, data }) => {
+export const SeccionUbicacionGenerico = ({  img, data, titulo="Recepción" }) => {
     return (
         <ContenedorSeccionUbicacionGenerico>
             <ContenedorInternoUbicacion>
@@ -33,7 +33,7 @@ export const SeccionUbicacionGenerico = ({  img, data }) => {
                     <ContenedorImgParallax height='100%' src={img} />
 
                     <ContenedorTxtUbicacion>
-                        <TxtEspecialUbicacion color='white'>Recepción</TxtEspecialUbicacion>
+                        <TxtEspecialUbicacion color='white'>{titulo}</TxtEspecialUbicacion>
                         <TxtUbicacion color='white'>{data.nombreUbicacion}</TxtUbicacion>
                         <TxtUbicacion color='white'>{data.ubicacion}</TxtUbicacion>
                         <TxtUbicacion color='white'>{data.horaEventoUbicacion}</TxtUbicacion>

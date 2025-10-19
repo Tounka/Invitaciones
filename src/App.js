@@ -31,8 +31,8 @@ function App() {
       <SeccionFrase telefono={data.telefono} frase={data.textoConfirmarAsistencia} />
       <SeccionUbicacionGenerico
         img={imgCatedral}
-        data={{nombreUbicacion:"Misa en parroquia nuestra señora del rosario ",horaEventoUbicacion:"17:00", ubicacion:"Calle Hospital 28, El Retiro, 44280 Guadalajara, Jal." }}
-        
+        data={{nombreUbicacion:"Misa en parroquia nuestra señora del rosario",horaEventoUbicacion:"17:00", ubicacion:"Calle Hospital 28, El Retiro, 44280 Guadalajara, Jal." }}
+        titulo="Misa"
         iframe={
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.595824940646!2d-103.33976542541727!3d20.68601613503295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1ebb9d0b5cf%3A0xc99b978a9a773754!2sParroquia%20Nuestra%20Se%C3%B1ora%20del%20Rosario%20-%20Templo%20del%20Padre%20Galv%C3%A1n!5e0!3m2!1ses-419!2smx!4v1760647827055!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         }
