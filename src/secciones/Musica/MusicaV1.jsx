@@ -36,9 +36,10 @@ const ContenedorBtnPlay = styled.div`
     align-items: center;
     background-color: var(--cafePrincipal);
     flex-shrink: 1;
+    cursor: pointer;
+    
     svg {
-        cursor: pointer;
-        
+        padding-left: 5px;    
         color: white;
     }
 `;
