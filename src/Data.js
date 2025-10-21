@@ -16,7 +16,7 @@ export const data = {
     textoConfirmarAsistencia:"Con amor y gratitud, queremos compartir con ustedes el día en que uniremos nuestras vidas. Con cariño, les pedimos que esta celebración sea solo para adultos.",
     fecha: new Date(2026, 2, 21),
     galeria: [img1, img2, img3, img4, img5, img6, img7, img8, img9],
-    msgRegalo: "Agradecemos tu compañía en esta nueva etapa que comenzamos. El regalo es opcional, la asistencia es obligatoria. Pero si quieres tener un detalle con nosotros tendremos lluvia de sobres ✉",
+    msgRegalo: "Lo más importante para nosotros es celebrar contigo este nuevo comienzo. Si deseas acompañarnos también con un detalle, aquí encontrarás nuestra mesa de regalos",
     msgCodigoVestimenta: "Formal (no tenis), Blanco reservado para la novia y verde esmeralda reservado para las damas.",
     coloresReservados: ["#046307", "#fff"],
 
