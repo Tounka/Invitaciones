@@ -43,11 +43,13 @@ export const ContenedorTxtUbicacion = styled.div`
  
     padding: 10px;
 
-    background-color: #000000ad;
+    background-color: #00987ac7;
+
     max-width: 400px;
     @media (max-width: 600px) {
         max-width: 200px;
     }
+
     
 `
 export const TxtEspecialUbicacion = styled(TxtGenerico)`
@@ -62,7 +64,7 @@ export const TxtEspecialUbicacion = styled(TxtGenerico)`
 export const TxtUbicacion = styled(TxtGenerico)`
 
     font-size: var(--txtSize3);
-    
+        
     @media (max-width: 600px) {
         font-size: var(--txtSize4);
     }

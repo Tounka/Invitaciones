@@ -12,15 +12,15 @@ const BotonMaps = styled.a`
     text-align: center;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: var(--cafePrincipal);;
-    color: white;
+    background-color: white;
+    color: var(--cafePrincipal);
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
     transition: opacity .2s ;
     &:hover {
-        opacity: .8;
+        
         transition: opacity .2s ;
     }
 `;

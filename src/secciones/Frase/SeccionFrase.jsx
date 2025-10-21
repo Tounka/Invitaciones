@@ -48,7 +48,7 @@ const ContenedorTxt = styled.div`
 
 const TextoFrase = styled(TxtGenerico)`
     font-size: var(--txtSize3);
-
+    color: var(--colorTexto);
     @media (max-width: 500px) {
         font-size: var(--txtSize4);
     }

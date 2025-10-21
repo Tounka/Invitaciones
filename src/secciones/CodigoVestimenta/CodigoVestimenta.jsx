@@ -51,6 +51,8 @@ const ColorReservado = styled.div`
     width: 30px;
     border-radius: 50%;
     background-color: ${props => props.color ? props.color : ''};
+
+    border: solid 2px #00000087;
 `
 
 
@@ -59,7 +61,7 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
         <ContenedorCodigoVestimenta>
             <ContenedorInterto>
                 <ContenedorHorizontal>
-                    <TxtGenerico size={'var(--txtSize1)'} fontFamily='var(--fuenteElegante)' bold>
+                    <TxtGenerico style={{color:"var(--colorTexto)"}} size={'var(--txtSize1)'} fontFamily='var(--fuenteElegante)' bold>
                         {`Dress Code`}
                     </TxtGenerico>
 
@@ -73,11 +75,11 @@ export const CodigoVestimenta = ({ codigoVestimenta }) => {
                     <br />
                 </TxtGenerico> */}
 
-                <TxtGenerico size={'var(--txtSize4)'} bold>
+                <TxtGenerico style={{color:"var(--colorTexto)"}} size={'var(--txtSize4)'} bold>
                     {data.msgCodigoVestimenta}
                 </TxtGenerico>
                 <ContenedorVertical>
-                    <TxtGenerico size={'var(--txtSize4)'} bold>Colores reservados</TxtGenerico>
+                    <TxtGenerico style={{color:"var(--colorTexto)"}} size={'var(--txtSize4)'} bold>Colores reservados</TxtGenerico>
                     <ContenedorHorizontal>
                         {/* <ColorReservado color={'#FDB086'} /> */}
                         {data.coloresReservados.map((color, index) =>{

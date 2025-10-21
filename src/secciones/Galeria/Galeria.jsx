@@ -71,7 +71,7 @@ export const SeccionGaleria = ({ galeria }) => {
 
     return (
         <ContenedorMusica>
-            <TxtGenerico size='var(--txtSize1)' fontFamily='var(--fuenteElegante)'>Fotos</TxtGenerico>
+            <TxtGenerico style={{color:"var(--colorTexto)"}} size='var(--txtSize1)' fontFamily='var(--fuenteElegante)'>Fotos</TxtGenerico>
             <ContenedorGaleria>
                 <ContendorVertical>
                     {columna1}

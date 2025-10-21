@@ -75,8 +75,8 @@ export const SeccionReproductor = () => {
     return (
         <ContenedorMusica>
             <ContenedorReproductor>
-                <TxtGenerico size='var(--txtSize2)'>Escucha nuestra canción favorita</TxtGenerico>
-                <TxtGenerico size='var(--txtSize5)' fontFamily='var(--fuenteElegante)' >'{data.nombreCancion}'</TxtGenerico>
+                <TxtGenerico style={{color:"var(--colorTexto)"}} size='var(--txtSize2)'>Escucha nuestra canción favorita</TxtGenerico>
+                <TxtGenerico style={{color:"var(--colorTexto)"}} size='var(--txtSize5)' fontFamily='var(--fuenteElegante)' >'{data.nombreCancion}'</TxtGenerico>
                 <ContenedorBtnPlay onClick={togglePlayPause}>
                     {isPlaying ? <FaPause /> : <FaPlay />}
                 </ContenedorBtnPlay>

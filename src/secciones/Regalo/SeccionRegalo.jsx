@@ -3,6 +3,7 @@ import { TxtGenerico } from "../../recursos/componentesGenericos/TxtGenericos";
 import { ContenedorGenericoSmall } from "../../recursos/componentesGenericos/ContenedoresGenericos";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { data } from "../../Data";
+import { BtnConfirmar } from "../../recursos/componentesGenericos/BtnGenerico";
 
 const ContenedorRegalo = styled(ContenedorGenericoSmall)`
     width: 100%;
@@ -21,21 +22,10 @@ const ContenedorTxt = styled.div`
     border-radius: 20px;
     border: solid 4px var(--cafePrincipal);
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    
 `;
 
-const ContenedorHorizontal = styled.div`
-    display: flex;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-`;
-
-const IconoSobre = styled(FaRegEnvelope)`
-    font-size: var(--txtSize2); /* Ajusta el tamaño del ícono */
-    vertical-align: middle; /* Alineación vertical */
-`;
 const TextoFrase = styled(TxtGenerico)`
     font-size: var(--txtSize3);
 
@@ -47,13 +37,15 @@ export const SeccionRegalo = () => {
     return (
         <ContenedorRegalo>
             <ContenedorTxt>
-                <TxtGenerico size='var(--txtSize1)' fontFamily='var(--fuenteElegante)'>
+                <TxtGenerico style={{ color: "var(--colorTexto)" }} size='var(--txtSize1)' fontFamily='var(--fuenteElegante)'>
                     Regalos
                 </TxtGenerico>
-    
-                <TextoFrase >{data.msgRegalo}</TextoFrase>
-                
-                
+
+                <TextoFrase style={{ color: "var(--colorTexto)" }} >{data.msgRegalo}</TextoFrase>
+
+                <BtnConfirmar href={`/`} target="_blank" rel="noopener noreferrer">
+                    Ver Mesa De Regalos
+                </BtnConfirmar>
             </ContenedorTxt>
         </ContenedorRegalo>
     );

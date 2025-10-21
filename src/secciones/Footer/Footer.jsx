@@ -6,7 +6,7 @@ const FooterStyled = styled.div`
 
     background-color: var(--blancoPrincipal);
     font-size: 22px;
-    color: black;
+    color: var(--colorTexto);
 
     display: flex;
     flex-direction:column;

@@ -1,9 +1,12 @@
 :root {
   --blancoPrincipal: #f3f6f5;
-  --rosaPrincipal: #ffafcc; 
-  --doradoSuave: #fbc739; 
-  --cafePrincipal: #7E5C40; 
-  --cafeEspecial: #7F550E; 
+  --rosaPrincipal: #ffafcc;       /* Rosa suave, conserva el contraste */
+  --doradoSuave: #fcd56b;         /* Dorado más claro y cálido */
+  --cafePrincipal: #009879;       /* Verde esmeralda (nuevo color principal) */
+  --cafeEspecial: #006e56;  
+
+
+  --colorTexto: #006e56;
 
 
 
@@ -19,6 +22,7 @@
   --txtSize5: 16px;
 
 }
+
 @font-face {
   font-family: 'fuenteElegante';
   src: url('./recursos/fuentes/DancingScript-VariableFont_wght.ttf') format('truetype');
